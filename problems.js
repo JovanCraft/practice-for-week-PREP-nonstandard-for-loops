@@ -8,6 +8,7 @@ function oddIndices(arr) {
     return brackets
 }
 
+
 function oddReverse(arr) {
     // Return an array containing all the odd indices starting from the end
     // Your code here
@@ -19,6 +20,7 @@ function oddReverse(arr) {
     return brackets.reverse();
 }
 
+
 function secondPower(arr) {
     // Return an array containing all indices that are powers of 2
     // Your code here
@@ -28,6 +30,7 @@ function secondPower(arr) {
     }
     return brackets
 }
+
 
 function nthPower(arr, n) {
     // Return an array containing all indices that are powers of n
@@ -39,6 +42,7 @@ function nthPower(arr, n) {
     return brackets
 }
 
+
 function firstHalf(arr) {
     // Return an array containing the first half of an array
     // Include middle index on odd length arr
@@ -48,6 +52,7 @@ function firstHalf(arr) {
 
 }
 
+
 function secondHalf(arr) {
     // Return an array containing the second half of an array
     // Exclude middle index on odd length arr
@@ -55,6 +60,7 @@ function secondHalf(arr) {
     const start = Math.ceil(arr.length / 2)
     return arr.slice(start)
 }
+
 
 module.exports = {
     oddIndices,
